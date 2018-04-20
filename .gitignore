@@ -1,22 +1,11 @@
-# Compiled class file
-*.class
+#include <iostream>
 
-# Log file
-*.log
+using namespace std;
 
-# BlueJ files
-*.ctxt
+int main() {
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+    cout << "Hola Mundo" << endl;
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+    return 0;
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+}
